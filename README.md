@@ -10,7 +10,7 @@ cd mediamon/src
 pip install -r requirements.txt
 ```
 
-## Edit Configuration
+## Configuration
 Copy the [example configuration](src/conf/config-example.yml) to
 `src/conf/config.yml`, and edit the parameters to reflect your
 desired configuration.
@@ -19,4 +19,19 @@ desired configuration.
 ```shell
 cd src
 python3 ./main.py
+```
+
+## Contributors
+
+## Development
+```shell
+git clone https://github.com/omniviant/mediamon.git
+pip install -r src/requirements.txt
+pip install -r src/requirements-dev.txt
+
+pylint src/
+flake8 src/
+bandit -r src/
+
+pytest -v tests/
 ```
