@@ -1,4 +1,4 @@
-data_directory: /tmp/mediamonitor/downloads
+data_directory: /app/data/downloads
 download: true
 urls:
   - https://www.youtube.com/user/l0de
@@ -10,6 +10,6 @@ yt-dlp:
   quiet: true,
   writeinfojson: true
   proxy: socks://192.168.50.30:1080
-  download_archive: /tmp/mediamonitor/archived.dat
+  download_archive: /app/data/archived.dat
   live_from_start: true
   hls_prefer_native: true
