@@ -16,9 +16,18 @@ Copy the [example configuration](src/conf/config-example.yml) to
 desired configuration.
 
 ## Usage
+
+### Standalone
 ```shell
 cd src
-python3 ./main.py
+python3 ./mediamonitor.py
+```
+
+### Docker
+```shell
+docker build -t mediamonitor .
+docker run --rm -d --name mediamonitor -v $PWD/data_dir:/app/data mediamonitor:latest
+docker logs -f mediamonitor
 ```
 
 ## Contributors
