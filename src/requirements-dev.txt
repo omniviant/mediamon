@@ -1,6 +1,4 @@
 flake8
 pylint
-mypy
 bandit
-types-PyYAML
 pytest
