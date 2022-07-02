@@ -1,0 +1,6 @@
+.idea/
+
+**/__pycache__
+**/*.pyc
+
+src/conf/config.yml

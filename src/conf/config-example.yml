@@ -1,0 +1,15 @@
+data_directory: /tmp/mediamonitor/downloads
+download: true
+urls:
+  - https://www.youtube.com/user/l0de
+workers: 10
+yt-dlp:
+  format: ba+bv/b,
+  noprogress: true,
+  restrictfilenames: true
+  quiet: true,
+  writeinfojson: true
+  proxy: socks://192.168.50.30:1080
+  download_archive: /tmp/mediamonitor/archived.dat
+  live_from_start: true
+  hls_prefer_native: true
