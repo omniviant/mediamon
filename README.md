@@ -22,10 +22,12 @@ python3 ./main.py
 ```
 
 ## Contributors
+- [monanon](https://github.com/monanon)
 
 ## Development
 ```shell
 git clone https://github.com/omniviant/mediamon.git
+git checkout dev-somebranchname
 pip install -r src/requirements.txt
 pip install -r src/requirements-dev.txt
 
