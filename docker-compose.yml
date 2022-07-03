@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  mediamonitor:
+    build: .
+    container_name: mediamonitor
+    volumes:
+      - $PWD/data:/app/data/
+    network_mode: host
+    restart: unless-stopped
