@@ -1,6 +1,8 @@
 .idea/
 data_dir/
 
+src/data
+
 **/__pycache__
 **/*.pyc
 
